@@ -1,0 +1,1 @@
+{'English': 90, 'Math': 80, 'Science': 100, 'History': 60, 'Gym': 90}

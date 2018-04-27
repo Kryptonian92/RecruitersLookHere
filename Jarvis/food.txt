@@ -1,0 +1,9 @@
+Hot Dog,200,N
+Pizza,300,N
+Salad,100,Y
+Corn,80,Y
+Burger,400,N
+Apple,80,Y
+Grapes,50,Y
+Buffalo Wings,400,N
+Bananaa,50,Y

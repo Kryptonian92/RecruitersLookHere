@@ -1,0 +1,67 @@
+# This function will print getting dressed
+def gettingDressed():
+    step1 = "put on pants"
+    step2 = "put on socks"
+    step3 = "put on shirt"
+    step4 = "put on shoes"
+    print(step1)
+    print(step2)
+    print(step3)
+    print(step4)
+
+#This function will print shaving
+def shaveFace():
+    step1 = "apply shaving cream"
+    step2 = "shave face"
+    step3 = "wash face"
+    print(step1)
+    print(step2)
+    print(step3)
+
+#This function will print taking the dog out
+def letOutDog():
+    steps = ["put collar on dog", "put lease on dog", "take dog out side","wait till dog is done","bring dog back inside"]
+    for i in range(0,5):
+        print (steps[i])
+
+#This function will print feed dog
+def feedDog():
+    steps = ["fill dog bowl", "give bowl to dog"]
+    printFunction(steps)
+
+#This function will print make breakfast
+def makeBreakfast():
+    steps = ["get bowl", "pour cereal", "pour milk"]
+    printFunction(steps)
+
+#This function will print eat breakfast
+def eatBreakfast():
+    steps = ["get spoon", "eat cereal"]
+    printFunction(steps)
+
+#This function will print brush teeth
+def brushTeeth():
+    steps = ["get tooth brush","put toothpaste on toothbrush", "brush teeth"]
+    printFunction(steps)
+
+#This function will print make lunch
+def makeLunch():
+    steps = ["get sandwich", "put in lunch box"]
+    printFunction(steps)
+
+#This function will print the steps of the other functions
+def printFunction(steps):
+    for i in range(0, len(steps)):
+        print(steps[i])
+
+def main():
+    gettingDressed()
+    shaveFace()
+    letOutDog()
+    feedDog()
+    makeBreakfast()
+    eatBreakfast()
+    brushTeeth()
+    makeLunch()
+
+main()
